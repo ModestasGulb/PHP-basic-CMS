@@ -1,0 +1,20 @@
+{
+    "name": "modestas/ph-pbasic-cms",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ModestasGulbinas",
+            "email": "modestasgulb@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.7"
+    },
+    "autoload": {
+        "files": [
+            "src/Users.php",
+            "src/Pages.php"
+        ]
+    }
+}

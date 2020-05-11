@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+
+td, th {
+    width: 50%;
+    border: solid 1px darkcyan;
+    padding: 5px;
+    font-weight: bold;
+}
+
+form {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: lightslategrey;
+    padding: 20px 0px 20px 5px;
+}
+
+nav ul li a {
+    font-size: 2rem;
+    color: whitesmoke;
+    margin-right: 10px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.login_logout {
+    background-color: black;
+    width: 100%;
+}
+
+.logout {
+    text-align: right;
+    padding: 5px;
+}
+
+.login_logout a, form, label {
+    color: whitesmoke;
+}
+
+.login {
+    width: 100%;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+#back_to_admin {
+    text-align: center;
+}
+
+#back_to_admin a {
+    color: red;
+}
+
+.actions {
+    text-align: center;
+}
+
+.addPage {
+    width: 100%;
+    text-align: center;
+}
+
+.addPage input {
+    background-color: springgreen;
+}
+
+.delete {
+    background-color: tomato;
+}
+
+#createPage {
+    width: 100%;
+}
+
+.titles {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titles input {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    width: 33%;
+}
+
+.titles textarea {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    width: 33%;
+    margin-top: 20px;
+}
+
+.contents {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contents input {
+    padding: 20px;
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+.contents textarea {
+    padding: 20px;
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+.createPage {
+    background-color: springgreen;
+}
+
+#pageUpdate {
+    width: 100%;
+}
+
